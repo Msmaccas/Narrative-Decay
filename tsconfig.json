@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": false,
+    "outDir": "dist",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@narrative-decay/*": ["packages/*/src"]
+    }
+  },
+  "include": ["packages", "apps", "scripts", "tests"],
+  "exclude": ["node_modules", "dist"]
+}

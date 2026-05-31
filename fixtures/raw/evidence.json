@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ev1",
+    "source": "news",
+    "timestamp": "2026-05-01T00:00:00Z",
+    "content": "AI spending continues to rise across major tech firms.",
+    "supports": true,
+    "thesisId": "th1"
+  },
+  {
+    "id": "ev2",
+    "source": "filing",
+    "timestamp": "2026-05-02T00:00:00Z",
+    "content": "Company X reduces capex guidance citing macro uncertainty.",
+    "supports": false,
+    "thesisId": "th1"
+  },
+  {
+    "id": "ev3",
+    "source": "news",
+    "timestamp": "2026-05-03T00:00:00Z",
+    "content": "Consumer demand remains robust despite rising rates.",
+    "supports": true,
+    "thesisId": "th2"
+  }
+]

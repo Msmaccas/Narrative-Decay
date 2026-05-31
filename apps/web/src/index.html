@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NarrativeDecay Dashboard</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f7f7f7;
+      }
+      header {
+        background: #222;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+      #container {
+        display: flex;
+        height: calc(100vh - 60px);
+      }
+      #sidebar {
+        width: 300px;
+        background: #fff;
+        border-right: 1px solid #ddd;
+        overflow-y: auto;
+      }
+      #content {
+        flex: 1;
+        padding: 1rem;
+        overflow-y: auto;
+      }
+      li {
+        padding: 0.5rem;
+        cursor: pointer;
+        border-bottom: 1px solid #eee;
+      }
+      li:hover {
+        background: #f0f0f0;
+      }
+      .state {
+        font-size: 0.8rem;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>NarrativeDecay Dashboard</h1>
+    </header>
+    <div id="container">
+      <div id="sidebar">
+        <h3>Theses</h3>
+        <ul id="thesis-list"></ul>
+        <button id="refresh">Update Narratives</button>
+        <div id="summary-section">
+          <h4>Summary</h4>
+          <div><strong>Strengthening:</strong> <span id="count-new">0</span></div>
+          <div><strong>Decaying:</strong> <span id="count-decaying">0</span></div>
+          <div><strong>Inconsistent:</strong> <span id="count-inconsistent">0</span></div>
+        </div>
+      </div>
+      <div id="content">
+        <h3 id="thesis-title">Select a thesis</h3>
+        <p id="thesis-state"></p>
+        <h4>Evidence Timeline</h4>
+        <ul id="evidence-list"></ul>
+      </div>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    environment:
+      - NODE_PATH=/app/dist/packages
+      - PORT=3000
+      - SERVICE=server
+    ports:
+      - "3000:3000"
+  worker:
+    build: .
+    environment:
+      - NODE_PATH=/app/dist/packages
+      - SERVICE=worker
+    # no port exposed for worker

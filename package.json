@@ -1,0 +1,20 @@
+{
+  "name": "narrative-decay",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "NODE_PATH=dist/packages node dist/tests/run-tests.js",
+    "smoke": "NODE_PATH=dist/packages node dist/scripts/smoke.js",
+    "start": "NODE_PATH=dist/packages node dist/packages/server/src/index.js",
+    "hygiene": "node scripts/check-repo-hygiene.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+  ,
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "@narrative-decay/worker",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "private": true
+}

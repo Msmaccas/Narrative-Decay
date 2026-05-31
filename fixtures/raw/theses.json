@@ -1,0 +1,20 @@
+[
+  {
+    "id": "th1",
+    "title": "AI capex supercycle broadens",
+    "description": "Spending on AI infrastructure will continue to accelerate as companies invest in training and inference capacity",
+    "state": "forming",
+    "evidenceIds": [],
+    "created": "2026-05-01T00:00:00Z",
+    "lastUpdated": "2026-05-01T00:00:00Z"
+  },
+  {
+    "id": "th2",
+    "title": "Consumer weakness is transitory",
+    "description": "Consumer spending slowdown will reverse quickly as macro headwinds fade",
+    "state": "forming",
+    "evidenceIds": [],
+    "created": "2026-05-01T00:00:00Z",
+    "lastUpdated": "2026-05-01T00:00:00Z"
+  }
+]
